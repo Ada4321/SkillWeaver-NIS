@@ -434,8 +434,9 @@ the command line with Hydra syntax, e.g. `env.table_z_range=[-0.06,0.25]`.
 
 ## Acknowledgements
 
-We thank [Lusen Zhao](https://forestontheland.github.io/cv/) for building the initial reinforcement learning
-framework this repository grew out of, and Su Li for adapting the Franka environments to the WidowX-250.
+We thank [Lusen Zhao](https://github.com/ForestOnTheLand) for building the initial reinforcement learning
+framework this repository grew out of, and [Su Li](https://github.com/artalogica) for adapting the Franka
+environments to the WidowX-250.
 
 ## Citation
 
