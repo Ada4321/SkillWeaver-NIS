@@ -51,7 +51,14 @@ Tested with Isaac Sim 6.0, Isaac Lab 3.0 (`v3.0.0-beta2`) and Python 3.12.
 
 ## Data
 
-Download the data bundle (coming soon) and extract it into `data/` at the repository root:
+Download the data bundle from [Hugging Face](https://huggingface.co/datasets/Ada-4321/SkillWeaver-NIS) into
+`data/` at the repository root:
+
+```bash
+pip install -U huggingface_hub
+hf download Ada-4321/SkillWeaver-NIS --repo-type dataset --local-dir data --exclude README.md .gitattributes
+tar -xzf data/assets.tar.gz -C data && rm data/assets.tar.gz
+```
 
 ```
 data/
