@@ -1,0 +1,7 @@
+Kitchen_Table/hot_sauce_bottle/asset_0026
+Kitchen_Table/mustard_bottle/asset_0044
+Kitchen_Table/oil_bottle/asset_0081
+Kitchen_Table/soda_can/asset_0095
+Kitchen_Table/vinegar_bottle/asset_0047
+Kitchen_Table/wine_bottle/asset_0059
+libero/ketchup_bottle/asset_0046

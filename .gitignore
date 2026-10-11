@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Run outputs
+logs/
+outputs/
+out/
+wandb/
+*.log
+nohup.out
+
+# Data bundle (downloaded separately); the per-sub-policy asset lists are tracked.
+data/*
+!data/asset_lists/
+
+# Machine-local asset paths
+isaaclabenvs/config/config.toml

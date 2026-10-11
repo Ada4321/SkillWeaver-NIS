@@ -1,0 +1,2 @@
+Kitchen_Table/bowl/asset_0034
+Kitchen_Table/cup/asset_0079

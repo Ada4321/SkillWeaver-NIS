@@ -1,0 +1,3 @@
+Kitchen_Table/energy_drink_can/asset_0034
+Kitchen_Table/ketchup_bottle/asset_0098
+libero/milk_carton/asset_0022

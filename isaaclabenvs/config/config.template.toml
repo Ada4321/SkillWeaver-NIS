@@ -1,0 +1,50 @@
+# Asset paths. Used as-is when isaaclabenvs/config/config.toml does not exist.
+# Relative paths resolve against the repository root, so this works unchanged once the
+# data bundle is extracted to <repo>/data. Copy to config.toml to point elsewhere.
+
+[dataset]
+
+[dataset.rigid]
+# Rigid objects: <scenario>/<category>/asset_XXXX/.
+path = "data/assets/rigid/*/*/asset_*/"
+usd_path = "*_coacd/coacd_final.usd"
+asset_json_path = "asset_*.json"
+point_cloud = "*_pcd.npz"
+top_point_cloud = "*_top_r15_pcd.npz"
+handle_point_cloud = "*_r25_pcd.npz"
+table_pose = "*_pose.npz"
+table_pose_key = "pose"
+valid_asset_file = ""
+invalid_asset_file = ""
+
+[dataset.arti_prismatic]
+# Articulated objects with a prismatic joint (drawers): <asset>_joint_<k>/.
+path = "data/assets/arti/prismatic/*_joint_*/"
+urdf_path = "*_cano_hd.urdf"
+usd_path = "configuration/*_cano_hd_physics.usd"
+handle_points = "*_cano_hd_handle_points.npz"
+handle_points_key = "points"
+link_forward_points = "*_cano_hd_link_forward_points.npz"
+link_forward_points_key = "points"
+handle_grasps = "*_cano_hd_handle_grasps.npz"
+init_arm_joint_pos = "data/initial_pose/franka_gripper_arti_filtered.npz"
+init_arm_joint_pos_key = "data"
+init_arm_eef_dir_key = "eef_dir"
+valid_asset_file = ""
+invalid_asset_file = ""
+
+[dataset.arti_revolute]
+# Articulated objects with a revolute joint (doors): <asset>_joint_<k>/.
+path = "data/assets/arti/revolute/*_joint_*/"
+urdf_path = "*_cano_hd.urdf"
+usd_path = "configuration/*_cano_hd_physics.usd"
+handle_points = "*_cano_hd_handle_points.npz"
+handle_points_key = "points"
+link_forward_points = "*_cano_hd_link_forward_points.npz"
+link_forward_points_key = "points"
+handle_grasps = "*_cano_hd_handle_grasps.npz"
+init_arm_joint_pos = "data/initial_pose/franka_gripper_arti_filtered.npz"
+init_arm_joint_pos_key = "data"
+init_arm_eef_dir_key = "eef_dir"
+valid_asset_file = ""
+invalid_asset_file = ""

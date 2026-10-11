@@ -1,0 +1,3 @@
+Kitchen_Table/beer_bottle/asset_0075
+Kitchen_Table/energy_drink_can/asset_0010
+Kitchen_Table/hot_sauce_bottle/asset_0022
