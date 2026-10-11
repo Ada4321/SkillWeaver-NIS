@@ -432,6 +432,11 @@ torchrun --standalone --nnodes=1 --nproc_per_node=8 scripts/rl_games/train.py --
 Logs and checkpoints are written to `logs/rl_games/gripper/`. Any environment setting can be overridden from
 the command line with Hydra syntax, e.g. `env.table_z_range=[-0.06,0.25]`.
 
+## Acknowledgements
+
+[Lusen Zhao](https://forestontheland.github.io/cv/) built the initial reinforcement learning framework of this
+repository, and Su Li adapted the Franka environments to the WidowX-250.
+
 ## Citation
 
 ```bibtex
