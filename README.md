@@ -3,6 +3,7 @@
 Neural Interaction Skills (NIS) for [SkillWeaver](https://github.com/Ada4321/SkillWeaver): the closed-loop
 PPO policies that the SkillWeaver agent invokes for contact-rich manipulation (Pick, Place, Open, Close),
 with their Isaac Lab training environments and the checkpoints used in the paper.
+The checkpoints and example assets are on [Hugging Face](https://huggingface.co/datasets/Ada-4321/SkillWeaver-NIS).
 
 [**Project Page**](https://katefgroup.github.io/skillweaver/) &nbsp;|&nbsp;
 [**arXiv**](https://arxiv.org/abs/2609.36171) &nbsp;|&nbsp;
